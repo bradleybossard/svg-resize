@@ -10,6 +10,14 @@ fits into both of them (possibly leaving bigger margin). Default units are milli
 After resizing the script can add a white frame to hide parts of image that should not be shown:
 use `--frame` option for that.
 
+## Install on Ubuntu
+
+    sudo apt-get install python-lxml
+
+## Example
+
+    ./svg-resize.py --width=30 --height=30 ./input.svg ./output.svg 
+
 ## Author and license
 
 The script was written by Ilya Zverev and published under WTFPL.
