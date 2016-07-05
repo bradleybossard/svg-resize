@@ -13,10 +13,11 @@ use `--frame` option for that.
 ## Install on Ubuntu
 
     sudo apt-get install python-lxml
+    sudo cp svg-resize.py /usr/local/bin/
 
 ## Example
 
-    ./svg-resize.py --width=30 --height=30 ./input.svg ./output.svg 
+    svg-resize.py --width=30 --height=30 ./input.svg ./output.svg 
 
 ## Author and license
 
